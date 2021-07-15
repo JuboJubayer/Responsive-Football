@@ -147,16 +147,20 @@ footer{
 /* media quiry for responsible */
 @media (max-width:360px) {
   
-body{
-
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    display: block;
 }
-header {
-    display: flex;
-    float: row;
-    position: relative;
+.flex-container{
     width: 360px;
-    height: 695px;
-    background-color: darkblue;
+}
+header{
+    position: relative;
+    width:360px;
+    height:695px;
+    background-color:darkblue;
 }
 .container {
     display: flex;
@@ -166,20 +170,88 @@ header {
 .banner-title {
     width: 278px;
     height: 138px;
+    margin-bottom: 175px;
     margin-left: 20px;
 }
 .banner-title h1 {
     width: 278px;
     height: 138px;
     font-size: 36px;
+    line-height: 50px;
     margin-left: 16px;
     margin-top: -112px;
 }
-.banner-img img {
+button {
+    background-color: #E02C6D;
+    margin-left: 20px;
+    padding: 10px 24px;
+    margin-top: 20px;
+}
+.banner-img {
+    width: 50%;
     position: absolute;
+    top: 180px;
+}
+.banner-img img {
     left: 15px;
-    top: 125px;
     width: 329px;
     height: 259px;
 }
+/* article section */
+.articles {
+    display: grid;
+    grid-template-columns: 350px;
+    width: 0px;
+    margin-left: 9px;
+}
+/* highlight section */
+.live {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 15px;
+}
+.half-width h1 {
+    font-size: 46px;
+    width: 329px;
+}
+.half-width p {
+    font-size: 18px;
+    font-weight: 400;
+    width: 329px;
+}
+.half-width img {
+    width: 328px;
+    height: 248px;
+}
+/* club news */
+.clubnews {
+    width: 360px;
+    margin-left: 20px;
+}
+.clubs {
+    display: grid;
+    grid-template-columns: 329px;
+}
+.club img{
+   width: 329px;
+}
 
+/* galleries section */
+.photgallerieso{
+    width: 360px;
+}
+.photgallerieso h1{
+    width: 329px;
+    margin-left: 20px;
+}
+.galleries {
+    display: grid;
+    grid-template-columns: 329px;
+}
+/* footer section  */
+.footer-wrap img {
+    width: 329px;
+}
+section{
+    width: 360px;
+}
