@@ -171,7 +171,7 @@ header{
     width: 278px;
     height: 138px;
     margin-bottom: 175px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 .banner-title h1 {
     width: 278px;
